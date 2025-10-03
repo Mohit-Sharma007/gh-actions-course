@@ -1,1 +1,1 @@
-This repository contains all the practice example from github actions course
+This repository contains all the practice example from github actions course.
