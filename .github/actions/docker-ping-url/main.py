@@ -22,7 +22,7 @@ def ping_url(url, delay, max_trials):
     return False
 
 def run():
-    websit_url = os.getenv("INPUT_URL")
+    website_url = os.getenv("INPUT_URL")
     delay = int(os.getenv("INPUT_DELAY"))
     max_trials = int(os.getenv("INPUT_MAX_TRIALS"))
 
@@ -32,6 +32,6 @@ def run():
         raise Exception(f"Website {website_url} is malformed or unreachable.")
     print(f"Website {website_url} is reachable.")
 
-    
+
 if __name__ == "__main__":
     run()
